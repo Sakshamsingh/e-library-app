@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#79E8F6"
+    android:backgroundTint="#79E8F6"
+    tools:context=".ThirdActivity">
+
+    <Button
+        android:id="@+id/ims"
+        android:layout_width="144dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="60dp"
+        android:background="#EC5323"
+        android:text="IMS"
+        android:textColorLink="#FB5C29"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mits" />
+
+    <ImageView
+        android:id="@+id/mits"
+        android:layout_width="144dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/moodle"
+        app:srcCompat="@drawable/mitslogo" />
+
+    <ImageView
+        android:id="@+id/moodle"
+        android:layout_width="144dp"
+        android:layout_height="139dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moodlelogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
